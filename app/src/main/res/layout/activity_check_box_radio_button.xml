@@ -11,13 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="58dp"
         android:background="@drawable/img_1"
-        android:text="Select Your Pizza Size"
         android:gravity="center_vertical"
-        android:textSize="20dp"
+        android:paddingTop="20dp"
         android:paddingLeft="10dp"
-        android:textColor="@color/white"/>
+        android:text="Select Your Pizza Size"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -54,52 +57,53 @@
             android:text="Topping"
             android:paddingLeft="10dp"
             android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:textSize="20dp"/>
 
-        <RadioButton
-            android:id="@+id/radioButton6"
+        <CheckBox
+            android:id="@+id/checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
             android:layout_marginLeft="20dp"
-            android:text="Butter Paneer" />
-
-        <RadioButton
-            android:id="@+id/radioButton7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginLeft="20dp"
-            android:text="Butter Chicken" />
-
-        <RadioButton
-            android:id="@+id/radioButton8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginLeft="20dp"
-            android:text="Chicken Keema"
-            android:layout_marginBottom="100dp"/>
+            android:text="Extra Cheese"
+            android:textColor="@color/white" />
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/checkbox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
-            android:text="I have chosen what I want to buy" />
+            android:layout_marginLeft="20dp"
+            android:text="Paneer" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:text="Onions"
+            android:layout_marginBottom="100dp"/>
+
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="120dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:backgroundTint="@color/white"
+            android:textSize="20dp"
+            android:textColor="@color/black"
             android:text="Order Now" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
-            android:layout_height="129dp"
+            android:layout_height="75dp"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
             android:textColor="@color/white"/>
 
 
