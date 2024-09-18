@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
         <activity
+            android:name=".MessFoodOrdering"
+            android:exported="true" />
+        <activity
+            android:name=".FlowerStoreApp"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintLayoutLearning"
+            android:exported="true" />
+        <activity
+            android:name=".ColorChangerGrid"
+            android:exported="true" />
+        <activity
+            android:name=".TemperatureConverter"
+            android:exported="true" />
+        <activity
             android:name=".BillCalculator"
             android:exported="true" />
         <activity

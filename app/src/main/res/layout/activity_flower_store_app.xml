@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlowerStoreApp"
+    android:background="@drawable/img_9">
+
+    <TextView
+        android:id="@+id/titleBar1"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flower Shop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="40dp"
+        app:layout_constraintVertical_bias=".07"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your bouquet"
+        app:layout_constraintStart_toStartOf="@id/titleBar1"
+        app:layout_constraintTop_toBottomOf="@id/titleBar1"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="352dp"
+        android:layout_height="499dp"
+        app:layout_constraintStart_toStartOf="@id/type"
+        app:layout_constraintTop_toBottomOf="@id/type">
+
+        <ImageView
+            android:id="@+id/sunflower"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sunflower"
+            app:layout_constraintStart_toStartOf="@id/type"
+            app:layout_constraintTop_toBottomOf="@id/type" />
+
+        <RadioButton
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunflower Bouquet"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="@id/sunflower"
+            app:layout_constraintStart_toEndOf="@id/sunflower" />
+
+        <ImageView
+            android:id="@+id/rose"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rose"
+            app:layout_constraintStart_toStartOf="@id/sunflower"
+            app:layout_constraintTop_toBottomOf="@id/sunflower" />
+
+        <RadioButton
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rose Bouquet"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@id/rose"
+            app:layout_constraintTop_toTopOf="@id/rose" />
+
+        <ImageView
+            android:id="@+id/tulip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tulip"
+            app:layout_constraintStart_toStartOf="@id/rose"
+            app:layout_constraintTop_toBottomOf="@id/rose" />
+
+        <RadioButton
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tulip Bouquet"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@id/tulip"
+            app:layout_constraintTop_toTopOf="@id/tulip" />
+
+        <ImageView
+            android:id="@+id/lotus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lotus"
+            app:layout_constraintStart_toStartOf="@id/tulip"
+            app:layout_constraintTop_toBottomOf="@id/tulip" />
+
+        <RadioButton
+            android:id="@+id/fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lotus Bouquet"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@id/lotus"
+            app:layout_constraintTop_toTopOf="@id/lotus" />
+
+        <ImageView
+            android:id="@+id/daffodil"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/daffodil"
+            app:layout_constraintStart_toStartOf="@id/lotus"
+            app:layout_constraintTop_toBottomOf="@id/lotus" />
+
+        <RadioButton
+            android:id="@+id/fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daffofil Bouquet"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@id/daffodil"
+            app:layout_constraintTop_toTopOf="@id/daffodil" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/group1"
+        app:layout_constraintTop_toBottomOf="@id/group1">
+
+        <TextView
+            android:id="@+id/getIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Which option do you prefer?"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="@id/sunflower"
+            app:layout_constraintTop_toBottomOf="@id/daffodil" />
+
+        <RadioButton
+            android:id="@+id/takeaway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Takeaway"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@id/getIt"
+            app:layout_constraintTop_toBottomOf="@id/getIt" />
+
+        <RadioButton
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="@id/getIt"
+            app:layout_constraintTop_toBottomOf="@id/getIt" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/flowerOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/group2"/>
+
+    <TextView
+        android:id="@+id/flowerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flowerOrder"
+        android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
