@@ -37,7 +37,12 @@ class MessFoodOrdering : AppCompatActivity() {
             if (raita.isChecked) sides.add("Raita")
             if (salad.isChecked) sides.add("Salad")
 
-            var orderFinal = "Your order is $meal with $sides"
+            var side = ""
+            if (sides.size==0) side="no sides"
+            else if (sides.size==1) side=sides[0]
+            else side = "${sides[0]} and ${sides[1]}"
+
+            var orderFinal = "Your order is $meal with $side"
             finalOrder.text = orderFinal
             Toast.makeText(this, orderFinal, Toast.LENGTH_LONG).show()
         }
