@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
         <activity
+            android:name=".spinners"
+            android:exported="true" />
+        <activity
             android:name=".MessFoodOrdering"
             android:exported="true" />
         <activity
