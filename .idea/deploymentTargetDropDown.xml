@@ -2,9 +2,6 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="ColorChanger">
-        <State />
-      </entry>
       <entry key="ColorChangerGrid">
         <State />
       </entry>
@@ -36,6 +33,9 @@
             </Target>
           </targetsSelectedWithDialog>
         </State>
+      </entry>
+      <entry key="SpinnerWithImages">
+        <State />
       </entry>
       <entry key="app">
         <State />
