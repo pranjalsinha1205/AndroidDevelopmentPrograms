@@ -2,6 +2,12 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="CA1">
+        <State />
+      </entry>
+      <entry key="CheckBoxRadioButton">
+        <State />
+      </entry>
       <entry key="ColorChangerGrid">
         <State />
       </entry>
@@ -9,38 +15,9 @@
         <State />
       </entry>
       <entry key="MessFoodOrdering">
-        <State>
-          <runningDeviceTargetsSelectedWithDialog>
-            <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="SERIAL_NUMBER" />
-                  <value value="49NZONBUIR8PCAKN" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </runningDeviceTargetsSelectedWithDialog>
-          <targetsSelectedWithDialog>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\ASUS\.android\avd\Pixel_8_Pro_API_28.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetsSelectedWithDialog>
-        </State>
-      </entry>
-      <entry key="SpinnerWithImages">
         <State />
       </entry>
       <entry key="app">
-        <State />
-      </entry>
-      <entry key="spinners">
         <State />
       </entry>
     </value>
