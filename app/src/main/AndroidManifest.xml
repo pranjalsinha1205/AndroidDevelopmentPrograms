@@ -13,6 +13,39 @@
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
         <activity
+            android:name=".Veggies"
+            android:exported="true" />
+        <activity
+            android:name=".ProcessedFoods"
+            android:exported="true" />
+        <activity
+            android:name=".Payment"
+            android:exported="true" />
+        <activity
+            android:name=".FoodGrains"
+            android:exported="true" />
+        <activity
+            android:name=".Furniture"
+            android:exported="true" />
+        <activity
+            android:name=".Electronics"
+            android:exported="true" />
+        <activity
+            android:name=".Books"
+            android:exported="true" />
+        <activity
+            android:name=".Sales"
+            android:exported="true" />
+        <activity
+            android:name=".Grocery"
+            android:exported="true" />
+        <activity
+            android:name=".Flipkart"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true" />
+        <activity
             android:name=".FlipkartProperWelcome"
             android:exported="true" />
         <activity
