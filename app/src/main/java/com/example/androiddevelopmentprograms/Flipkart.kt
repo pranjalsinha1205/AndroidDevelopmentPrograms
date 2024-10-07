@@ -17,8 +17,10 @@ class Flipkart : AppCompatActivity() {
 
         var logo = findViewById<ImageButton>(R.id.logo)
         logo.setOnClickListener {
-            var i = Intent(this, HomePage::class.java)
-            startActivity(i)
+//            var i = Intent(this, HomePage::class.java)
+//            startActivity(i)
+
+            finish()
         }
 
         var electronics = findViewById<ImageButton>(R.id.electronics)

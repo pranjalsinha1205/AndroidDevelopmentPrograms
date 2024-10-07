@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         //var password
         fun onClickProceed(){
             var i = Intent(this, HomePage::class.java)
+            i.putExtra("name1", username.text.toString())
             startActivity(i)
         }
 

@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
         <activity
+            android:name=".LPUFrontPage"
+            android:exported="true" />
+        <activity
+            android:name=".LPUHome"
+            android:exported="true" />
+        <activity
+            android:name=".SnackbarIntro"
+            android:exported="true" />
+        <activity
+            android:name=".FlowerBuy"
+            android:exported="true" />
+        <activity
+            android:name=".FlowerMain"
+            android:exported="true" />
+        <activity
             android:name=".Veggies"
             android:exported="true" />
         <activity

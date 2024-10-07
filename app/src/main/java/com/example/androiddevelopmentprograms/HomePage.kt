@@ -3,6 +3,7 @@ package com.example.androiddevelopmentprograms
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,6 +18,10 @@ class HomePage : AppCompatActivity() {
         var flipkartButton = findViewById<ImageButton>(R.id.flipkart)
         var groceryButton = findViewById<ImageButton>(R.id.grocery)
         var saleButton = findViewById<ImageButton>(R.id.sale)
+        var txt = findViewById<TextView>(R.id.txt)
+
+        var name = intent.getStringExtra("name1")
+        txt.text = "Welcome to flipkart, $name!"
 
         flipkartButton.setOnClickListener {
             var i = Intent(this, Flipkart::class.java)

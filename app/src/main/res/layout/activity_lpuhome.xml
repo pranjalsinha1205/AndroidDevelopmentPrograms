@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LPUHome"
+    android:background="@color/skyblue">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/logo"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@drawable/lpu_logo"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+    <ImageButton
+        android:id="@+id/cse"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        android:scaleType="fitXY"
+        android:background="@drawable/cse"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/logo"/>
+
+    <ImageButton
+        android:id="@+id/mec"
+        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/mechanical"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/ece"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cse"
+        app:layout_constraintEnd_toStartOf="@id/mec"
+        android:background="@drawable/ece"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/pharma"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintStart_toStartOf="@id/cse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/pharmacy"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/law"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@id/mec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/law"/>
+
+    <ImageButton
+        android:id="@+id/multi"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pharma"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toStartOf="@id/law"
+        android:scaleType="fitXY"
+        android:background="@drawable/multimedia"/>
+
+    <ImageButton
+        android:id="@+id/architecture"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintStart_toStartOf="@id/cse"
+        app:layout_constraintTop_toBottomOf="@id/cse"
+        app:layout_constraintBottom_toTopOf="@id/multi"
+        android:scaleType="fitXY"
+        android:background="@drawable/architecture"/>
+
+    <ImageButton
+        android:id="@+id/agri"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintTop_toBottomOf="@id/ece"
+        app:layout_constraintBottom_toTopOf="@id/multi"
+        app:layout_constraintStart_toStartOf="@id/ece"
+        android:scaleType="fitXY"
+        android:background="@drawable/agri"/>
+
+    <ImageButton
+        android:id="@+id/fashion"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent=".3"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintTop_toBottomOf="@id/mec"
+        app:layout_constraintBottom_toTopOf="@id/law"
+        app:layout_constraintStart_toStartOf="@id/mec"
+        android:scaleType="fitXY"
+        android:background="@drawable/fashion"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

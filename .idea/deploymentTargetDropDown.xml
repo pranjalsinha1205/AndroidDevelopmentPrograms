@@ -2,38 +2,17 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="CA1">
-        <State />
-      </entry>
-      <entry key="ColorChangerGrid">
+      <entry key="FlowerMain">
         <State />
       </entry>
       <entry key="IntentProgram">
         <State />
       </entry>
+      <entry key="LPUFrontPage">
+        <State />
+      </entry>
       <entry key="MainActivity">
         <State>
-          <multipleDevicesSelectedInDropDown value="true" />
-          <runningDeviceTargetsSelectedWithDialog>
-            <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="SERIAL_NUMBER" />
-                  <value value="49NZONBUIR8PCAKN" />
-                </Key>
-              </deviceKey>
-            </Target>
-            <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\ASUS\.android\avd\Pixel_8_Pro_API_28.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </runningDeviceTargetsSelectedWithDialog>
           <targetsSelectedWithDialog>
             <Target>
               <type value="QUICK_BOOT_TARGET" />
@@ -47,7 +26,7 @@
           </targetsSelectedWithDialog>
         </State>
       </entry>
-      <entry key="MessFoodOrdering">
+      <entry key="SnackbarIntro">
         <State />
       </entry>
       <entry key="app">
