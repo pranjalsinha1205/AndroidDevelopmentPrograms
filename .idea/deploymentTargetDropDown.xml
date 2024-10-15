@@ -5,9 +5,6 @@
       <entry key="ExplicitImplicitIntent">
         <State />
       </entry>
-      <entry key="FlowerMain">
-        <State />
-      </entry>
       <entry key="LPUFrontPage">
         <State>
           <targetSelectedWithDropDown>
@@ -38,6 +35,9 @@
             </Target>
           </targetsSelectedWithDialog>
         </State>
+      </entry>
+      <entry key="MenuBarIntro">
+        <State />
       </entry>
       <entry key="SnackbarIntro">
         <State />
