@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Color changer app"
+        android:textColor="@color/yellow"
+        android:background="@color/navy"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/ye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="200dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Yellow" />
+
+        <Button
+            android:id="@+id/bl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="Blue" />
+
+        <Button
+            android:id="@+id/re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="Red" />
+
+        <Button
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Orange" />
+
+        <Button
+            android:id="@+id/pi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="Pink" />
+
+        <Button
+            android:id="@+id/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="Black" />
+
+        <Button
+            android:id="@+id/re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginTop="80dp"
+            android:text="Reset" />
+    </GridLayout>
+</LinearLayout>

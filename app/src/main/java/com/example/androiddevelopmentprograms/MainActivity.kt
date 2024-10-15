@@ -33,5 +33,11 @@ class MainActivity : AppCompatActivity() {
         loginText.setOnClickListener {
             onClickProceed()
         }
+
+        val lpu = findViewById<Button>(R.id.lpu)
+        lpu.setOnClickListener {
+            var i = Intent(this, LPUFrontPage::class.java)
+            startActivity(i)
+        }
     }
 }

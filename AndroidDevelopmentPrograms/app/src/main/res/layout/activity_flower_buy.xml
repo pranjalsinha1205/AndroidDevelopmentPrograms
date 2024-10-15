@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/skyblue"
+        tools:context=".FlowerBuy">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Ardent Flowers💓"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:background="@color/skyblue"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textStyle="italic"/>
+        <ImageView
+            android:id="@+id/sunflowerImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:src="@drawable/sunflower"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/roseImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:src="@drawable/rose"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:padding="15dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toEndOf="@id/sunflowerImage"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/lotusImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            android:src="@drawable/lotus"
+            android:padding="15dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toEndOf="@id/roseImage"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/tulipImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:src="@drawable/tulip"
+            app:layout_constraintTop_toBottomOf="@id/sunflowerImage"
+            android:background="@color/white"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/dahliaImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:background="@color/white"
+            android:src="@drawable/dahlia"
+            app:layout_constraintTop_toBottomOf="@id/sunflowerImage"
+            app:layout_constraintStart_toEndOf="@id/tulipImage"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/daffodilImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:src="@drawable/daffodil"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/sunflowerImage"
+            app:layout_constraintStart_toEndOf="@id/dahliaImage"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/hydrangeaImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:background="@color/white"
+            android:src="@drawable/hydrangea"
+            app:layout_constraintTop_toBottomOf="@id/tulipImage"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/lilyImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:src="@drawable/lily"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/tulipImage"
+            app:layout_constraintStart_toEndOf="@id/hydrangeaImage"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/orchidImage"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            app:layout_constraintWidth_percent=".33"
+            android:background="@color/white"
+            android:src="@drawable/orchid"
+            app:layout_constraintTop_toBottomOf="@id/tulipImage"
+            app:layout_constraintStart_toEndOf="@id/lilyImage"
+            android:padding="15dp"
+            android:paddingTop="0dp"
+            android:scaleType="fitXY"/>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/orchidImage">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="16dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="200dp"-->
+<!--                    android:scaleType="centerCrop"-->
+<!--                    android:src="@drawable/sunflower"/>-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textSize="20dp"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:fontFamily="sans-serif-black"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:text="Sunflowers, with their bright yellow petals and towering stalks, are a cheerful symbol of summer. Their name is a testament to their love for the sun, which they follow throughout the day."/>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        first-->
+        <CheckBox
+            android:id="@+id/firstCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/pink"
+            app:layout_constraintTop_toBottomOf="@id/hydrangeaImage"/>
+
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sunflower"
+            app:layout_constraintTop_toBottomOf="@id/hydrangeaImage"
+            app:layout_constraintStart_toEndOf="@id/firstCheck"
+            app:layout_constraintWidth_percent=".5"
+            android:padding="15dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/firstPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunflower\n\n₹10.0"
+            app:layout_constraintStart_toEndOf="@id/first"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hydrangeaImage"
+            app:layout_constraintBottom_toBottomOf="@id/first"
+            app:layout_constraintVertical_bias="0.4"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+<!--        second-->
+        <CheckBox
+            android:id="@+id/secondCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/pink"
+            app:layout_constraintTop_toBottomOf="@id/first"/>
+
+        <ImageView
+            android:id="@+id/second"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:src="@drawable/rose"
+            app:layout_constraintTop_toBottomOf="@id/first"
+            app:layout_constraintStart_toEndOf="@id/firstCheck"
+            app:layout_constraintWidth_percent=".5"
+            android:padding="15dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/secondPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Rose\n\n₹20.0"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/second"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toEndOf="@id/second"
+            app:layout_constraintTop_toBottomOf="@id/first"
+            app:layout_constraintVertical_bias="0.38" />
+
+<!--        third-->
+        <CheckBox
+            android:id="@+id/thirdCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/pink"
+            app:layout_constraintTop_toBottomOf="@id/second"/>
+
+        <ImageView
+            android:id="@+id/third"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:src="@drawable/lotus"
+            app:layout_constraintTop_toBottomOf="@id/second"
+            app:layout_constraintStart_toEndOf="@id/firstCheck"
+            app:layout_constraintWidth_percent=".5"
+            android:padding="15dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/thirdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Lotus\n\n₹15.0"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/third"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toEndOf="@id/second"
+            app:layout_constraintTop_toBottomOf="@id/second"
+            app:layout_constraintVertical_bias="0.38" />
+
+<!--        fourth-->
+        <CheckBox
+            android:id="@+id/fourthCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/pink"
+            app:layout_constraintTop_toBottomOf="@id/third"/>
+
+        <ImageView
+            android:id="@+id/fourth"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:src="@drawable/lily"
+            app:layout_constraintTop_toBottomOf="@id/third"
+            app:layout_constraintStart_toEndOf="@id/firstCheck"
+            app:layout_constraintWidth_percent=".5"
+            android:padding="15dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/fourthPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Lily\n\n₹12.0"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/fourth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toEndOf="@id/second"
+            app:layout_constraintTop_toTopOf="@id/fourth"
+            app:layout_constraintVertical_bias="0.38" />
+
+        <ImageButton
+            android:id="@+id/buy"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/navy"/>
+
+        <TextView
+            android:id="@+id/buyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Now"
+            app:layout_constraintStart_toStartOf="@id/buy"
+            app:layout_constraintEnd_toEndOf="@id/buy"
+            app:layout_constraintTop_toTopOf="@id/buy"
+            app:layout_constraintBottom_toBottomOf="@id/buy"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

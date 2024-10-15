@@ -71,4 +71,13 @@
         android:textColor="@color/black"
         android:fontFamily="sans-serif-black"/>
 
+    <Button
+        android:id="@+id/lpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To See Different Schools"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

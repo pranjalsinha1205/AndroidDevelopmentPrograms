@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_7">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Yellow Lemon Total Bill"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_margin="20dp"
+        android:hint="Enter the amount"/>
+
+    <TextView
+        android:id="@+id/tipsSuggestion"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Any tips for our staff?"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <RadioButton
+            android:id="@+id/noTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Tip" />
+
+        <RadioButton
+            android:id="@+id/tip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5%" />
+
+        <RadioButton
+            android:id="@+id/tip10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10%" />
+
+        <RadioButton
+            android:id="@+id/tip20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20%" />
+
+        <Button
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Calculate Total" />
+
+        <TextView
+            android:id="@+id/totalBill"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textSize="40dp"
+            android:layout_height="100dp" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidDevelopmentPrograms</string>
     <string name="bmi_calculator">BMI Calculator</string>
+    <string name="localization_intro">Empower the youth</string>
 </resources>

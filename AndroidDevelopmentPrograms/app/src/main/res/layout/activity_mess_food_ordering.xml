@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_7">
+
+    <TextView
+        android:id="@+id/restroTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Yellow Lemon Mess"
+        android:background="@color/yellow"/>
+
+    <TextView
+        android:id="@+id/meals"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/restroTitle"
+        app:layout_constraintTop_toBottomOf="@id/restroTitle"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20dp"
+        android:text="What meal would you like?"/>
+
+    <RadioGroup
+        android:id="@+id/meal_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@id/meals"
+        app:layout_constraintTop_toBottomOf="@id/meals">
+
+        <ImageView
+            android:id="@+id/veg_thali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/veg"
+            android:scaleType="fitXY"/>
+
+        <RadioButton
+            android:id="@+id/veg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg Thali"
+            android:fontFamily="sans-serif-black"/>
+
+        <ImageView
+            android:id="@+id/nonveg_thali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/nonveg"
+            android:scaleType="fitXY"/>
+
+        <RadioButton
+            android:id="@+id/nonveg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Veg Thali"
+            android:fontFamily="sans-serif-black"/>
+
+        <ImageView
+            android:id="@+id/vegnonveg_thali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/veg_nonveg"
+            android:scaleType="fitXY"/>
+
+        <RadioButton
+            android:id="@+id/veg_nonveg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg Non Veg Combo Thali"
+            android:fontFamily="sans-serif-black"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/sides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toBottomOf="@id/meal_group"
+        app:layout_constraintStart_toStartOf="@id/meal_group"
+        android:textSize="20dp"
+        android:text="Which sides would you like?"/>
+
+    <ImageView
+        android:id="@+id/img_raita"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/raita"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@id/sides"
+        app:layout_constraintTop_toBottomOf="@id/sides"/>
+
+    <CheckBox
+        android:id="@+id/raita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/img_raita"
+        app:layout_constraintTop_toBottomOf="@id/sides"
+        android:text="Raita"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:id="@+id/img_salad"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/salad"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toEndOf="@id/raita"
+        app:layout_constraintTop_toBottomOf="@id/sides"/>
+
+    <CheckBox
+        android:id="@+id/salad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/img_salad"
+        app:layout_constraintTop_toBottomOf="@id/sides"
+        android:text="Salad"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageButton
+        android:id="@+id/orderMeal"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/raita"
+        android:background="@color/navy"
+        android:text="Order!"/>
+
+    <TextView
+        android:id="@+id/orderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        app:layout_constraintStart_toStartOf="@id/orderMeal"
+        app:layout_constraintEnd_toEndOf="@id/orderMeal"
+        app:layout_constraintTop_toTopOf="@id/orderMeal"
+        app:layout_constraintBottom_toBottomOf="@id/orderMeal"
+        android:text="Order!"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/finalOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@id/orderMeal"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

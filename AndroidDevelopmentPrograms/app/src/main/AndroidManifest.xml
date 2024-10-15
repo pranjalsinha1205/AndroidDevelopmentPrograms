@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidDevelopmentPrograms"
+        tools:targetApi="31">
+        <activity
+            android:name=".FlowerBuy"
+            android:exported="true" />
+        <activity
+            android:name=".FlowerMain"
+            android:exported="true" />
+        <activity
+            android:name=".Veggies"
+            android:exported="true" />
+        <activity
+            android:name=".ProcessedFoods"
+            android:exported="true" />
+        <activity
+            android:name=".Payment"
+            android:exported="true" />
+        <activity
+            android:name=".FoodGrains"
+            android:exported="true" />
+        <activity
+            android:name=".Furniture"
+            android:exported="true" />
+        <activity
+            android:name=".Electronics"
+            android:exported="true" />
+        <activity
+            android:name=".Books"
+            android:exported="true" />
+        <activity
+            android:name=".Sales"
+            android:exported="true" />
+        <activity
+            android:name=".Grocery"
+            android:exported="true" />
+        <activity
+            android:name=".Flipkart"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true" />
+        <activity
+            android:name=".FlipkartProperWelcome"
+            android:exported="true" />
+        <activity
+            android:name=".FlipkartWelcome"
+            android:exported="true" />
+        <activity
+            android:name=".IntentProgram"
+            android:exported="true" />
+        <activity
+            android:name=".CA1"
+            android:exported="true" />
+        <activity
+            android:name=".SpinnerWithImages"
+            android:exported="true" />
+        <activity
+            android:name=".spinners"
+            android:exported="true" />
+        <activity
+            android:name=".MessFoodOrdering"
+            android:exported="true" />
+        <activity
+            android:name=".FlowerStoreApp"
+            android:exported="true" />
+        <activity
+            android:name=".ConstraintLayoutLearning"
+            android:exported="true" />
+        <activity
+            android:name=".ColorChangerGrid"
+            android:exported="true" />
+        <activity
+            android:name=".TemperatureConverter"
+            android:exported="true" />
+        <activity
+            android:name=".BillCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".ColorChanger"
+            android:exported="true" />
+        <activity
+            android:name=".BMICalculatorApp"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxRadioButton"
+            android:exported="true" />
+        <activity
+            android:name=".SimpleCalculator"
+            android:exported="true" />
+        <activity
+            android:name=".GridLayoutLearning"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
