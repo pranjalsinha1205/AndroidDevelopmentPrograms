@@ -23,11 +23,20 @@ class Portfolio : AppCompatActivity() {
         val certifications = findViewById<ImageButton>(R.id.certifications)
         val hobbies = findViewById<ImageButton>(R.id.hobbies)
         val projects = findViewById<ImageButton>(R.id.projects)
-        val img_gallery = findViewById<ImageButton>(R.id.gallery)
+        val gallery = findViewById<ImageButton>(R.id.gallery)
         val skills = findViewById<ImageButton>(R.id.skills)
 
-        
+        academic.setOnClickListener {  }
 
+        certifications.setOnClickListener {  }
+
+        hobbies.setOnClickListener {  }
+
+        projects.setOnClickListener {  }
+
+        gallery.setOnClickListener {  }
+
+        skills.setOnClickListener {  }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

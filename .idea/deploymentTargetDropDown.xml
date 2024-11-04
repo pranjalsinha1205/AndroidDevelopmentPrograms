@@ -2,44 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="ExplicitImplicitIntent">
+      <entry key="AppChooser">
         <State />
       </entry>
-      <entry key="LPUFrontPage">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\ASUS\.android\avd\Pixel_8_Pro_API_28.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-10-07T17:05:49.790371Z" />
-        </State>
-      </entry>
-      <entry key="MainActivity">
-        <State>
-          <targetsSelectedWithDialog>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\ASUS\.android\avd\Pixel_8_Pro_API_28.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetsSelectedWithDialog>
-        </State>
+      <entry key="DialogueBoxIntro">
+        <State />
       </entry>
       <entry key="MenuBarIntro">
         <State />
       </entry>
-      <entry key="SnackbarIntro">
+      <entry key="Permissions">
+        <State />
+      </entry>
+      <entry key="QuoteChooser">
         <State />
       </entry>
       <entry key="app">
