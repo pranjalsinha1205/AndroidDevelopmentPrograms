@@ -16,4 +16,10 @@
         android:title="Feedback"
         app:showAsAction="always"
         android:icon="@drawable/feedback"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        app:showAsAction="always"
+        android:icon="@drawable/exit"/>
 </menu>

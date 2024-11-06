@@ -51,7 +51,7 @@ class QuoteChooser : AppCompatActivity() {
         }
 
 //        fun newPage(){
-//            var i = Intent(thi)
+//            var i = Intent(this::)
 //        }
     }
     fun shareQuotes(message:String){

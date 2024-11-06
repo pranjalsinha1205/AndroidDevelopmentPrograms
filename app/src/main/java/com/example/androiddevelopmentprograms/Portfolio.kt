@@ -6,7 +6,9 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -66,6 +68,20 @@ class Portfolio : AppCompatActivity() {
             R.id.feedback ->{//explicit
                 val i = Intent(this, FeedbackPortfolio::class.java)
                 startActivity(i)
+                true
+            }
+            R.id.exit ->{
+                var doer = AlertDialog.Builder(this)
+                doer.setTitle("Exit")
+                doer.setMessage("Do you really wish to exit?")
+                doer.setCancelable(false)
+                doer.setPositiveButton("Yes"){dialog, _ -> finish()}
+                doer.setNegativeButton("No"){dialog, _ -> dialog.dismiss()}
+                doer.setNeutralButton("Maybe..."){dialog, _ ->
+                    Toast.makeText(this, "I am just here to take space\nI don't have any actual use", Toast.LENGTH_LONG).show()
+                    dialog.dismiss()
+                }
+                doer.create().show()
                 true
             }
             else -> super.onOptionsItemSelected(item)
