@@ -19,6 +19,12 @@
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
         <activity
+            android:name=".ContextMenuIntro"
+            android:exported="true" />
+        <activity
+            android:name=".PopupMenuIntro"
+            android:exported="true" />
+        <activity
             android:name=".LanguageDialog"
             android:exported="true" />
         <activity

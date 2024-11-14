@@ -2,19 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="CustomDialogBoxIntro">
+      <entry key="ContextMenuIntro">
         <State />
       </entry>
-      <entry key="DialogueBoxIntro">
+      <entry key="CustomDialogBoxIntro">
         <State />
       </entry>
       <entry key="LanguageDialog">
         <State />
       </entry>
-      <entry key="Portfolio">
+      <entry key="PopupMenuIntro">
         <State />
       </entry>
-      <entry key="QuoteChooser">
+      <entry key="Portfolio">
         <State />
       </entry>
       <entry key="app">
