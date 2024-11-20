@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Get Idea"
+        app:showAsAction="always"
+        android:id="@+id/getIdea"
+        />
+
+    <item
+        android:title="Recipe of the day"
+        app:showAsAction="always"
+        android:id="@+id/recipeOfTheDaY"/>
+
+    <item
+        android:title="Popular"
+        app:showAsAction="always"
+        android:id="@+id/popular"
+        />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Chicken Butter Masala"
+        android:icon="@drawable/chicken_butter_masala"/>
+    <item
+        android:title="Paneer Butter Masala"
+        android:icon="@drawable/paneer_butter_masala"/>
+    <item
+        android:title="Chicken Korma"
+        android:icon="@drawable/chicken_korma"/>
+</menu>

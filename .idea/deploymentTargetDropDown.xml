@@ -2,10 +2,23 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="ContextMenuIntro">
-        <State />
+      <entry key="CA3">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\ASUS\.android\avd\Pixel_8_Pro_API_28.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-11-20T08:20:38.620173100Z" />
+        </State>
       </entry>
-      <entry key="CustomDialogBoxIntro">
+      <entry key="ContextMenuIntro">
         <State />
       </entry>
       <entry key="LanguageDialog">

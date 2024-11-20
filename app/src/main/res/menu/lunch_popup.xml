@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Rajma Chawal"
+        android:icon="@drawable/rajma_chawal"/>
+
+    <item
+        android:title="Kadhi Chawal"
+        android:icon="@drawable/kadhi_chawal"/>
+
+    <item
+        android:title="Fried Rice"
+        android:icon="@drawable/fried_rice"/>
+</menu>
