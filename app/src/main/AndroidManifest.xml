@@ -8,7 +8,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +20,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidDevelopmentPrograms"
         tools:targetApi="31">
+        <activity
+            android:name=".LocalizationExample2"
+            android:exported="true" />
+        <activity
+            android:name=".CameraPermissionDialogApp"
+            android:exported="true" />
         <activity
             android:name=".CA3"
             android:exported="true" />
