@@ -39,6 +39,7 @@ class CA3 : AppCompatActivity() {
                 var doer = AlertDialog.Builder(this).setView(importLayout)
                 doer.setTitle("Denied").setCancelable(false)
                 doer.setPositiveButton("Try Again"){dialog, _ -> Toast.makeText(this, "Trying Again", Toast.LENGTH_LONG).show()}
+                doer.setNegativeButton("No"){dialog, _ -> }
                 doer.create().show()
             }
         }

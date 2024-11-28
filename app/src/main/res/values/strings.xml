@@ -2,5 +2,7 @@
     <string name="app_name">AndroidDevelopmentPrograms</string>
     <string name="bmi_calculator">BMI Calculator</string>
     <string name="localization_intro">Empower the youth</string>
-    <string name = "vision">"Towards a brighter future"</string>
+    <string name="vision">"Towards a brighter future"</string>
+    <string name="name">Pranjal Sinha</string>
+    <string name="gender">Male</string>
 </resources>
