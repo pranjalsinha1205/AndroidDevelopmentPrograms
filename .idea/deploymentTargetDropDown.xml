@@ -2,6 +2,9 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="CA2">
+        <State />
+      </entry>
       <entry key="CA3">
         <State>
           <targetSelectedWithDropDown>
@@ -25,9 +28,6 @@
         <State />
       </entry>
       <entry key="LocalizationExample2">
-        <State />
-      </entry>
-      <entry key="PopupMenuIntro">
         <State />
       </entry>
       <entry key="app">
